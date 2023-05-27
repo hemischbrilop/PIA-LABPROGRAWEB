@@ -300,3 +300,38 @@
         padding: 5px;
     }
 }
+
+/*Empieza seccion de contenidos*/
+.contenidos{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center
+}
+.contenidos .nuevos_productos{
+    background: rgb(246, 249, 250);
+    display: flex;
+    flex: 1 1 auto;
+    margin: 30px 40px 0  40px;
+    justify-content:space-between
+   
+    
+}
+.nuevos_productos h1{
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 6px;
+    
+}
+.nuevos_productos a{
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 8px;
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+}
+
