@@ -1,0 +1,20 @@
+*{
+    margin: 1px 1px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*programacion de toda la seccion header*/
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 136, 241);
+    position:relative
+    /*
+    background:url(Img/cielo.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    */
+
+}
