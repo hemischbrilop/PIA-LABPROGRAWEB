@@ -8,6 +8,17 @@ CREATE TABLE ROLES{
 };
 
 CREATE TABLE USUARIO{
+    IDUSUARIO INT PRIMARY KEY AUTO_INCREMENT,
+    IDROL     INT NOT NULL,
+    Municipio VARCHAR(50) NOT NULL,
+    Colonia VARCHAR(50) NOT NULL,
+    Ciudad VARCHAR(50) NOT NULL,
+    Codigo_Postal VARCHAR(50) NOT NULL,
+    Edad INT NOT NULL, 
+    Contrasena VARCHAR(50) NOT NULL,
+    Telefono VARCHAR(50) NOT NULL,
+    Direccion VARCHAR(50) NOT NULL,
+    Correo_Electronico VARCHAR(50) NOT NULL,
 
 };
 
