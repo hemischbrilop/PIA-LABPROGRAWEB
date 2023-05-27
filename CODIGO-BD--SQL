@@ -3,7 +3,8 @@ CREATE DATABASE Abarrotes_Osito;
 USE Abarrotes_Osito;
 
 CREATE TABLE ROLES{
-
+    IDROL INT PRIMARY KEY,
+    Nombre_Del _Rol VARCHAR(50) NOT NULL,
 };
 
 CREATE TABLE USUARIO{
