@@ -57,3 +57,32 @@
     padding-top: 20px;
     color: white;
 }
+/*seccion del buscador de "Menu"*/
+.menu .buscar{
+    display: flex;
+    flex: 2 1 auto;
+    
+    align-items: center;
+    justify-content: center;        
+}
+.buscar input{
+    width: 500px;
+    height: 25px;
+    font-size: 18px;
+   
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 6px;
+    text-align: start;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    line-height: 52px;
+    text-align: center;
+    color:crimson;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: -55px;
+
+}
