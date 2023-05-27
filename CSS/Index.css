@@ -334,4 +334,84 @@
     color: crimson;
     text-decoration: none;
 }
+.productos{
+    display: flex;
+    background: rgb(246, 249, 250);
+    margin: 0px 40px 0  40px;
+    height: 600px;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.Slideproduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+    align-items: center;
+    background-color: white;
+
+    
+}
+.Slideproduct img{
+    width:160px;
+    margin-top: -80px;   
+    
+    
+    
+}
+.Slideproduct .nombre{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(90, 86, 86);
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    
+}
+.Slideproduct .intereses{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(90, 86, 86);
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    margin-left: 50px;
+    transform: translate(0%, 110%);
+    
+    
+}
+.Slideproduct i{
+    color: rgb(30, 97, 222);
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.Slideproduct .precio{
+    align-items: center;
+    font-size: 22px;
+    color: rgb(30, 97, 222);
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    transform: translate(35%, 280%);
+    
+}
+.Slideproduct button{
+    font-size:16px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 97, 222);
+    padding: 10px 60px 10px 60px;
+    border-radius: 6px;
+    border-color:rgb(30, 97, 222);
+    position: absolute;
+    
+    transform: translate(-48%, 90%);
+    
+
+   
+
+}
 
