@@ -171,3 +171,52 @@
 .departamentos .contactos{
      flex: 4 1 auto;
 }
+.contactos nav{
+    
+    text-align: center;
+   
+}
+.contactos nav a{
+    
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-left: 25px;
+    padding-top: 22px;
+}
+.contactos nav a:hover{
+    color: rgb(219, 255, 101);
+}
+.departamentos .sociales{
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sociales{
+    padding: 0 10px 0 5px;
+}
+.sociales a{
+    font-size: 25px;
+    color: whitesmoke;
+    
+}
+.sociales a:hover{
+    font-size: 25px;
+    color: rgb(219, 255, 101);
+}
+
+.aviso h2{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: rgb(131, 28, 169);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
