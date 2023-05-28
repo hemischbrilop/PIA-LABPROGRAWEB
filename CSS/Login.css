@@ -6,9 +6,12 @@ a img{
 
 .contenedor_todo{
     background-color: rgb(222, 136, 241) ;
-    margin: 110px;
+    margin-left: 370px;
+    margin-right: 370px;
     border-radius: 20px;
     padding: 20px;
+ 
+    
 }
 
 .caja_trasera-Login, .caja_trasera-Registro{
@@ -17,5 +20,9 @@ a img{
 
 *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
