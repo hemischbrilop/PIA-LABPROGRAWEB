@@ -16,4 +16,20 @@ $Correo_Electronico  = $_POST[Correo_Electronico];
 
 $ContrasenaHash = password_hash($Contrasena, PASSWORD_BCRYPT); // <--BCrypt es el algoritmo de encriptacion que es el que no devolvera una cadena de 60 digitos  
 $FotoPerfil = "link de la imagen"; // <-- aqui se almacena la imagen del foto de perfil
+
+//Aqui se anade los datos a la base de datos
+$sql = "INSERT INTO Usuario VALUES ('$Nombre','$Apellido','$Municipio','$Colonia','$Ciudad','$Codigo_Postal','$Edad','$Contrasena','$Telefono','$Direccion','$Correo_Electronico')";
+
+//Aqui se verifica si se guardaron los datos
+if(mysqli_query($conexion, $sql)){
+    mkdir("ruta de carpeta"); // aqui se va a crear una carpeta en imagenes para el usuario
+    copy("ruta de la imagen"); // aqui se va a copiar una imagen por default
+
+    echo"Tu cuenta ha sido creada.";
+    Echo"<br> <a href= link de la pagina login>Iniciar sesion</a></div>";
+}
+
+// Se cierra la conexion
+mysqli_close($conexion);
+
 ?>
