@@ -1,0 +1,101 @@
+[33mcommit 81737237550c04fa3857c6d4ab39bfb7196b190e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 23:21:06 2023 -0600
+
+    Solamente se acomodo el codigo para que se viera mejor
+
+[33mcommit 6e183e5e52c7ae93de3438b005aacc5df7c24ee9[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 23:18:01 2023 -0600
+
+    Se agregaron las FK correspondientes a la tabla PROVEEDORES_PRODUCTOS
+
+[33mcommit 8edb9b3712fc87a50b973baa0571e4fe4c8b3e18[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 23:15:00 2023 -0600
+
+    Se agregaron las FK correspondientes a la tabla Carrito
+
+[33mcommit 0bfd8b24e5ff45925d95c84e23951a524cf8959e[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 23:08:18 2023 -0600
+
+    Se agregaron las FK correspondientes a la tabla COMPRAVENTA
+
+[33mcommit 1fadce09a27f59f1b6ddc32651bede0ba367ac1b[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 23:02:08 2023 -0600
+
+    Se agregaron las fk correspondientes a la tabla compra
+
+[33mcommit 53febe08e7606fef64eee5f7bf9953fa93e51bc3[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:58:57 2023 -0600
+
+    Se agregaron las FK correspondientes a la tabla Productos
+
+[33mcommit 871e2020e43dff79f757b213c6cab3d11369f2d8[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:56:12 2023 -0600
+
+    Se agregaron las FK correspondientes a la tabla Usuario
+
+[33mcommit 3450ce660dfa9d168a2bd684048ec70a1b2a6fef[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:49:36 2023 -0600
+
+    Relleno tabla proveedores-productos
+
+[33mcommit 43158624a844e917a53e9df17816d31d7f1d7383[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:33:31 2023 -0600
+
+    relleno tabla carrito
+
+[33mcommit 5b226e5b1130b2fb6f2ed4e0c6d461385cb73727[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:28:21 2023 -0600
+
+    relleno tabl CompraVenta
+
+[33mcommit 16e237e7b4c97e53d06318f39107f154005aff3c[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:18:13 2023 -0600
+
+    Relleno tabla compra
+
+[33mcommit c1278683b59256258590e3fc4b9844e58215926a[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:13:19 2023 -0600
+
+    Relleno tabla productos
+
+[33mcommit 664ff66e070c7570f29a57c273d6c1535f61acb2[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:08:37 2023 -0600
+
+    Relleno tabla proveedores
+
+[33mcommit 54b7e46f5d766cd2fdb2b52bb677de284c14942f[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 22:01:21 2023 -0600
+
+    Relleno de tabla Usuario
+
+[33mcommit e56578321a02652281510a3e104a4f6dea5f1d80[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 21:50:47 2023 -0600
+
+    Relleno de la tabla roles
+
+[33mcommit 477fafecf1f57eda39a722e657c2a88635669506[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 21:46:28 2023 -0600
+
+    Se crearon las tablas de la bd
+
+[33mcommit f882fda31927da2527748af0349d637f9f80c214[m
+Author: hemischbrilop <hemischbrilop@yahoo.com.mx>
+Date:   Fri May 26 21:40:21 2023 -0600
+
+    Creacion del archivo de la base de datos
