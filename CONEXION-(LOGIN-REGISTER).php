@@ -14,4 +14,6 @@ $Telefono = $_POST[Telefono];
 $Direccion = $_POST[Direccion];
 $Correo_Electronico  = $_POST[Correo_Electronico];
 
+$ContrasenaHash = password_hash($Contrasena, PASSWORD_BCRYPT); // <--BCrypt es el algoritmo de encriptacion que es el que no devolvera una cadena de 60 digitos  
+$FotoPerfil = "link de la imagen"; // <-- aqui se almacena la imagen del foto de perfil
 ?>
