@@ -1,24 +1,17 @@
-
 <?php
-// todos los comentarios que agregue apartir de aqui seran solo para saber que estoy haciendo
+include("CONEXION PHP.php"); //Es para llamar al archivo conexion php
 
-//Variables que utilice
-$Servidor = "Localhost";
-$Usuario = "root";
-$contrasena = "";
-
-$BD = "Abarrotes_Osito";
-
-
-$conexion = mysqli_connect($Servidor, $Usuario, $contrasena, $BD); // <--- Esto es lo que crea la conexion de la pagina a la base de datos
-
-//Esto verifica si se realizo la conexion
-
-if(!$conexion){
-    echo"Fallo la conexion <br>";
-    die("Connection failed: " . mysqli_connect_error() );
-}else{
-    echo"Conexion exitosa";
-}
+//Aqui se guardan las variables que se ingresan en los formularios
+$Nombre = $_POST[Nombre];  //el primer $es la variable y el segundo es el formulario del que agarraremos la informacion apra guardar la variable
+$Apellido = $_POST[Apellido];
+$Municipio = $_POST[Municipio];
+$Colonia = $_POST[Colonia];
+$Ciudad = $_POST[Ciudad];
+$Codigo_Postal = $_POST[Codigo_Postal];
+$Edad = $_POST[Edad];
+$Contrasena = $_POST[Contrasena];
+$Telefono = $_POST[Telefono];
+$Direccion = $_POST[Direccion];
+$Correo_Electronico  = $_POST[Correo_Electronico];
 
 ?>

@@ -10,6 +10,8 @@ CREATE TABLE ROLES{
 CREATE TABLE USUARIO{
     IDUSUARIO           INT PRIMARY KEY AUTO_INCREMENT,
     IDROL               INT NOT NULL,
+    Nombre              VARCHAR(50) NOT NULL,
+    Apellido            VARCHAR(50) NOT NULL,
     Municipio           VARCHAR(50) NOT NULL,
     Colonia             VARCHAR(50) NOT NULL,
     Ciudad              VARCHAR(50) NOT NULL,
