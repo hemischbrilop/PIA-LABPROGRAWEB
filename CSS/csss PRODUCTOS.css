@@ -177,6 +177,54 @@
 .secciones p:hover{
     color: rgb(219, 255, 101);
 }
+
+.secciones nav{
+    width:  205px;
+    font-size: 16px;
+    
+}
+.horizontal{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+.horizontal > li:hover{
+    background-color: rgb(235, 182, 85);
+}
+.menu_vertical{
+    
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.menu_vertical li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.menu_vertical a{
+    text-decoration: none;
+    color: white;
+}
+.horizontal li:hover .menu_vertical{
+    display: block;
+}
+.menu_vertical li:hover{
+    background-color: #def534;
+    padding: 10px 10px 10px 15px;
+}
+.menu_vertical a:hover{
+    color: #333;
+}
 .departamentos .contactos{
      flex: 4 1 auto;
 }
