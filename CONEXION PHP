@@ -1,0 +1,13 @@
+<?php
+// todos los comentarios que agregue apartir de aqui seran solo para saber que estoy haciendo
+$Servidor = "Localhost";
+$Usuario = "root";
+$contrasena = "";
+
+$BD = "Abarrotes_Osito";
+
+$conexion = mysqli_connect($Servidor, $Usuario, $contrasena, $BD); // <--- Esto es lo que crea la conexion de la pagina a la base de datos
+
+
+
+?>
