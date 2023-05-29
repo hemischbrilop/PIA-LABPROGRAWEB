@@ -34,6 +34,13 @@ if($Consulta)
 
     }else{
         echo"Contrasena incorrecta";
-        echo"<br><a href=''>Intentele otra vez.</a></div>:";
+        echo"<br><a href='index'>Intentele otra vez.</a></div>:";
+    }else{
+        echo "El Correo es inexistente";
+        echo"<br><a href='index'>Intentele otra vez.</a></div>:";
     }
+    // con respecto a lo de arriba se que me preguntare en un futuro para que sirve, y es que si la consulta salio negativa/nula/etc, significa que no se encontro el correo electronico por ende no existe el usuario 
+
+    //cerrar conexion
+    mysqli_close($CONEXION);
 ?>
