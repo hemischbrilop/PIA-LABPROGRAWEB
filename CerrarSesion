@@ -1,0 +1,13 @@
+<?php 
+session_start();
+
+//aqui se destruyen todas las variables de sesion
+
+$_SESSION=array();
+
+
+// aqui la sesion ya se va a la kk
+session_destroy();
+header('Location:...index');//te redirijira al index
+
+?>
