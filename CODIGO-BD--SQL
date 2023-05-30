@@ -1,5 +1,4 @@
 CREATE DATABASE Abarrotes_Osito;
-
 USE Abarrotes_Osito;
 
 CREATE TABLE ROLES(
@@ -25,7 +24,7 @@ CREATE TABLE USUARIO(
     FOREIGN KEY (IDRol) REFERENCES ROLES(IDRol)
 );
 
-CREATE  TABLE PROVEEDORE(
+CREATE  TABLE PROVEEDORES(
     IDProveedor         INT PRIMARY KEY AUTO_INCREMENT,
     Nombre              VARCHAR(50) NOT NULL,
     Calle               VARCHAR(50) NOT NULL,
@@ -68,6 +67,7 @@ CREATE TABLE COMPRAVENTA(
 );
 
 CREATE TABLE CARRITO(
+	IDUsuario 			INT NOT NULL,
     IDCompra            INT NOT NULL,
     IDProducto          INT NOT NULL, 
     Cantidad            INT NOT NULL,
