@@ -2,12 +2,12 @@ CREATE DATABASE Abarrotes_Osito;
 
 USE Abarrotes_Osito;
 
-CREATE TABLE ROLES{
+CREATE TABLE ROLES(
     IDRol           INT PRIMARY KEY,
-    Nombre_Del _Rol VARCHAR(50) NOT NULL,
-};
+    Nombre_Del_Rol 	VARCHAR(50) NOT NULL
+);
 
-CREATE TABLE USUARIO{
+CREATE TABLE USUARIO(
     IDUSUARIO           INT PRIMARY KEY AUTO_INCREMENT,
     IDROL               INT NOT NULL,
     Nombre              VARCHAR(50) NOT NULL,
@@ -23,21 +23,21 @@ CREATE TABLE USUARIO{
     Correo_Electronico  VARCHAR(50) NOT NULL,
 
     FOREIGN KEY (IDRol) REFERENCES ROLES(IDRol)
-};
+);
 
-CREATE  TABLE PROVEEDORES{
+CREATE  TABLE PROVEEDORE(
     IDProveedor         INT PRIMARY KEY AUTO_INCREMENT,
     Nombre              VARCHAR(50) NOT NULL,
     Calle               VARCHAR(50) NOT NULL,
     Numero              VARCHAR(50) NOT NULL,
     Ciudad              VARCHAR(50) NOT NULL,
     Colonia             VARCHAR(50) NOT NULL,
-    Municipio           VARCHAR(50) NOT NULL,
+    Municipio           VARCHAR(50) NOT NULL
 
 
-};
+);
 
-CREATE TABLE PRODUCTOS{
+CREATE TABLE PRODUCTOS(
     IDProducto          INT PRIMARY KEY AUTO_INCREMENT,
     IDProveedor         INT NOT NULL,
     Nombre              VARCHAR(50) NOT NULL,
@@ -47,36 +47,36 @@ CREATE TABLE PRODUCTOS{
 
     FOREIGN KEY (IDProveedor) REFERENCES PROVEEDORES(IDProveedor)
 
-};
+);
 
-CREATE TABLE COMPRA{
+CREATE TABLE COMPRA(
     IDCompra            INT PRIMARY KEY AUTO_INCREMENT,
     IDUsuario           INT NOT NULL, 
     Monto               FLOAT NOT NULL,
     Cantidad            INT NOT NULL, 
     
     FOREIGN KEY (IDUsuario) REFERENCES USUARIO(IDUsuario)
-};
+);
 
-CREATE TABLE COMPRAVENTA{
+CREATE TABLE COMPRAVENTA(
     IDCompra            INT NOT NULL,
     IDProducto          INT NOT NULL, 
     Cantidad            INT NOT NULL, 
 
     FOREIGN KEY (IDCompra) REFERENCES COMPRA(IDCompra),
     FOREIGN KEY (IDProducto) REFERENCES PRODUCTOS(IDProducto)
-};
+);
 
-CREATE TABLE CARRITO{
+CREATE TABLE CARRITO(
     IDCompra            INT NOT NULL,
     IDProducto          INT NOT NULL, 
     Cantidad            INT NOT NULL,
 
     FOREIGN KEY (IDUsuario) REFERENCES usuario(IDUsuario),
     FOREIGN KEY (IDProducto) REFERENCES PRODUCTOS(IDProducto)
-};
+);
 
-CREATE TABLE PROVEEDORES_PRODUCTOS{
+CREATE TABLE PROVEEDORES_PRODUCTOS(
     IDProveedor        INT NOT  NULL,
     IDProducto         INT NOT NULL,
 
@@ -84,4 +84,4 @@ CREATE TABLE PROVEEDORES_PRODUCTOS{
 
     FOREIGN KEY (IDProveedor) REFERENCES PROVEEDORES(IDProveedor),
     FOREIGN KEY (IDProducto) REFERENCES PRODUCTOS(IDProducto)
-};
+);
