@@ -1,5 +1,5 @@
 <?php 
-session_start();
+session_start(); // <- este comando sirve para iniciar una nueva sesion o reanuda una existente
 
 //aqui se destruyen todas las variables de sesion
 
