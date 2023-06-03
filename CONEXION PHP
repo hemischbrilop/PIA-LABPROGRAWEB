@@ -2,11 +2,11 @@
 // todos los comentarios que agregue apartir de aqui seran solo para saber que estoy haciendo
 
 //Variables que utilice
-$Servidor = "Localhost";
+$Servidor = "containers-us-west-148.railway.app";
 $Usuario = "root";
-$contrasena = "";
+$contrasena = "e5OrJ4CNMg7gisvdRD56";
 
-$BD = "Abarrotes_Osito";
+$BD = "railway";
 
 
 $conexion = mysqli_connect($Servidor, $Usuario, $contrasena, $BD); // <--- Esto es lo que crea la conexion de la pagina a la base de datos
